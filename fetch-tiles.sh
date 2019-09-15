@@ -13,4 +13,6 @@ git clone https://github.com/NeoLegends/osm-tile-downloader
   --south 50.7492 \
   --west 6.031 \
   --url https://a.tile.openstreetmap.se/hydda/full/\{z\}/\{x\}/\{y\}.png \
-  --output ../build/tile)
+  --output ../tile)
+
+tar -cf build/tiles.tar tile/
